@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	precomposeunicode = false
+[remote "heroku"]
+	url = https://git.heroku.com/sk-flaskeg.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
