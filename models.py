@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime # https://www.notion.so/skinetics/Gemini-Station-15c17fe702ca4e718435a655bdcc0d7c
 from config import db, ma
 
 class Person(db.Model):
