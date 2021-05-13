@@ -1,0 +1,32 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with the Gemini Station API
+  version: "1.0.0"
+  title: Gemini Station Trade API
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+# Paths supported by the server application
+paths:
+  /characters:
+    get:
+      operationId: "character.read"
+      tags:
+        - "Characters"
+      summary: "The characters data structure supported by the server application"
+      description: "Read the list of characters (in the game)"
+      responses:
+        200:
+          description: "Successful read character list operation"
+          schema:
+            type: "array"
+            items:
+              properties:
+                characterName:
+                  type: "string"
+                timestampSignedup:
+                  type: "string"

@@ -19,7 +19,7 @@ class Trade(db.Model):
     __tablename__ = 'trades'
     trade_id = db.Column(db.Integer, primary_key=True)
     person_id_from = db.Column(db.Integer, db.ForeignKey('person.person_id'))
-		person_id_to = db.Column(db.Integer, db.ForeignKey('person.person_id'))
+	#person_id_to = db.Column(db.Integer, db.ForeignKey('person.person_id'))
     status = db.Column(db.Bool, nullable=False)
     timestamp = db.Column(
         db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow
