@@ -19,6 +19,10 @@ def home():
     """
     return render_template('home.html')
 
+@app.route('/dashboard')
+def dashboard():
+    return render_template('dashboard.html')
+
 # If we're running in stand alone mode, run the application
 if __name__ == '__main__':
     app.run(debug=True) 
