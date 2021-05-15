@@ -8,6 +8,10 @@ import connexion
 app = connexion.App(__name__, specification_dir="./")
 app.add_api('swagger.yml')
 
+"""
+"DSP-26 Customise (slightly) ares dashboard in `templates` and add flask base" -m "To compare with the connexion api we built, including some swagger stuff. https://github.com/greyli/apiflask/find/master. https://github.com/flasgger/flasgger/find/master. https://github.com/automationhacks/people-api/find/master. https://github.com/louisvarley/fishPI. Creative Tim Flask Dashboard for styling tips and placement advice. https://pypi.org/project/flask-swagger/ https://github.com/hack4impact/flask-base/tree/master/app/templates"
+"""
+
 # Create a URL route in our application for "/"
 @app.route('/')
 def home():
