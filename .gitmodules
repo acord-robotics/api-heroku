@@ -1,0 +1,12 @@
+[submodule "GeminiStation/Flask-Material-Dashboard"]
+	path = GeminiStation/Flask-Material-Dashboard
+	url = keybase://team/signalkinetics/Flask-Material-Dashboard
+[submodule "GeminiStation/flmada"]
+	path = GeminiStation/flmada
+	url = keybase://team/signalkinetics/Flask-Material-Dashboard
+[submodule "GeminiStation/--force"]
+	path = GeminiStation/--force
+	url = keybase://team/signalkinetics/Flask-Material-Dashboard
+[submodule "GeminiStation/fmd"]
+	path = GeminiStation/fmd
+	url = keybase://team/signalkinetics/Flask-Material-Dashboard
