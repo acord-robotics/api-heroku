@@ -96,3 +96,6 @@ Legend:
 * Static/css/js files/web components: `@`
 * Submodule: `+`
 * Virtual environment: `$`
+
+**Updates**
+https://www.notion.so/skinetics/Gemini-Station-15c17fe702ca4e718435a655bdcc0d7c#d5f4615d63b5480899ba4e1647a8814d
