@@ -1,0 +1,48 @@
+@import './fonts/starjedi-font-face.css';
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #021114;
+}
+
+*::-webkit-scrollbar-thumb {
+  border: 5px solid #222222;
+  /* background-color: #444444; */
+  cursor: pointer;
+}
+*::-webkit-scrollbar-corner {
+  background-color: #021114;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  'Roboto',
+  'Oxygen',
+  'Ubuntu',
+  'Cantarell',
+  'Fira Sans',
+  'Droid Sans',
+  'Helvetica Neue',
+  sans-serif;
+}
+.title-style{ 
+  font-family: 'star_jediregular' !important;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
