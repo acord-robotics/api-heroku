@@ -1,5 +1,3 @@
 {
-    "jira-plugin.workingProject": "",
-    "git.ignoreLimitWarning": true,
-    "python.pythonPath": "/usr/bin/python3"
+    "jira-plugin.workingProject": ""
 }
