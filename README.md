@@ -4,6 +4,8 @@ This branch is to construct a react application with a Flask backend, and deploy
 
 `Main` files: https://github.com/acord-robotics/api-heroku/tree/main/GeminiStation/react
 
+https://www.notion.so/skinetics/React-Flask-8b2d5d3df0354d818bbd09ec8d185d1a#99b43916858a4296ab8ebe667968ccd6
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
