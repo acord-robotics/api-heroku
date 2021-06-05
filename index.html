@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-1-colored/100/R2D2-512.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.27/dist/shoelace/shoelace.css"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.27/dist/shoelace/shoelace.esm.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.27/themes/dark.css"
+    />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <center>
+      <sl-button-group>
+        <sl-button href="http://liam.skinetics.tech">Home</sl-button>
+        <sl-button href="https://dev.to/gizmotronn">Writing</sl-button>
+        <sl-button href="http://ar.skinetics.tech/stellarios/docs">Documentation (SK)</sl-button>
+        <sl-drawer label="Feed" placement="left" class="drawer-placement-left">
+          <sl-button-group>
+  <sl-button href="https://glitch.com/edit/#!/larbuckle?path=MHA%2FREADME.md%3A5%3A147">Game Snippets</sl-button>
+  <sl-button href="http://ar.skinetics.tech/stellarios/compass">Project docs</sl-button>
+</sl-button-group>
+
+          <a
+            class="twitter-timeline"
+            href="https://twitter.com/OpusTheRobot?ref_src=twsrc%5Etfw"
+            >Tweets by OpusTheRobot</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+          <sl-button slot="footer" type="primary">Close</sl-button>
+        </sl-drawer>
+
+        <sl-button>Meta</sl-button>
+
+        <script>
+          (() => {
+            const drawer = document.querySelector(".drawer-placement-left");
+            const openButton = drawer.nextElementSibling;
+            const closeButton = drawer.querySelector(
+              'sl-button[type="primary"]'
+            );
+
+            openButton.addEventListener("click", () => drawer.show());
+            closeButton.addEventListener("click", () => drawer.hide());
+          })();
+        </script>
+      </sl-button-group>
+    </center>
+    <center><h1>Hi there!</h1></center>
+    <center>
+      <p>
+        I'm Liam, an 18 year old open source developer based in Australia!
+      </p>
+      
+      <sl-tab-group>
+  <sl-tab slot="nav" panel="general">Game Dev</sl-tab>
+  <sl-tab slot="nav" panel="custom">Python</sl-tab>
+  <sl-tab slot="nav" panel="disabled" disabled>Web Apps - Coming soon</sl-tab>
+  <sl-tab slot="nav" panel="disabled" disabled><a href="https://glitch.com/@signal-kinetics">SK Glitch</a></sl-tab>
+
+  <sl-tab-panel name="general">Unity Web RTC:
+       
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/unity-webrtc?path=README.md&previewSize=0"
+    title="unity-webrtc on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div></sl-tab-panel>
+  <sl-tab-panel name="custom">Reddit saved items
+    <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@IrisDroidology/RedditCSV?lite=true">          
+    </iframe></sl-tab-panel>
+  <sl-tab-panel name="disabled"></sl-tab-panel>
+  <sl-tab-panel name="disabled">This is a disabled tab panel.</sl-tab-panel>
+</sl-tab-group>
+
+    </center>
+<!--
+    <sl-alert open>
+      <sl-icon slot="icon" name="info-circle"></sl-icon>
+      I'm still working on constructing this site, so things may be broken or
+      missing
+    </sl-alert>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix 
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>-->
+  </body>
+</html>
+
+<!--Links for future
+<!-- Copy and Paste Me 
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/unity-webrtc?path=README.md&previewSize=0"
+    title="unity-webrtc on Glitch"
+    allow="geolocation; microphone; camera; midi; vr; encrypted-media"
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+https://unity-webrtc.glitch.me-->
+
