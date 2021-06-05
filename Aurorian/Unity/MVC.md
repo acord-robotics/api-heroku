@@ -1,1 +1,0 @@
-https://www.notion.so/skinetics/MVC-Architecture-Research-bb1eca5346564107b42086ae2f39be94
