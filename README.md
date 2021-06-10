@@ -85,6 +85,21 @@ This README file serves to explore the components of this part of Signal's Arcad
   </br>
 </p>
 
+## Figma
+<p align="center">
+  <a href="https://github.com/acord-robotics/gem-jekylldemo"
+    ><img
+      src="https://img.shields.io/badge/gem-jekylldemo-1DA1F3?style=flat-square"
+      alt="GEM-jekylldemo"
+  /></a>
+  <a href="https://signal-kinetics.atlassian.net/jira/software/projects/GSCA/boards/15/backlog?selectedIssue=GSCA-7"
+    ><img
+      src="https://img.shields.io/badge/jira-gemjekyll-1DA1F3?style=flat-square"
+      alt="Chat on Discord"
+  /></a><!--http://ar.skinetics.tech/stellarios/compass#GeminiStation-->
+  </br>
+</p>
+
 `GeminiStation`:
 ```py
 dashboard_assets @
@@ -105,9 +120,4 @@ https://www.notion.so/skinetics/Gemini-Station-15c17fe702ca4e718435a655bdcc0d7c#
 
 React app: `react-flask-app` (will upload to Glitch, Heroku, Vercel, Netlify, GH-Pages later. Also will make a separate repo, and send to Keybase). [Jira issue](https://signal-kinetics.atlassian.net/browse/GSCA-3)
 
-<!--Starship config
 
-
-
--->
->>>>>>> main
