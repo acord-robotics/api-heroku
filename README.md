@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+<p align="center">
+  <img
+    width="400"
+    src="https://ksr-ugc.imgix.net/assets/032/154/770/2a776b6dd43e13f8e7d2f3cf897c8424_original.png?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1611768158&auto=format&frame=1&q=92&s=7ce31c952ddcfa328862734669e64a7e"
+    alt="Gemini Station + SK"
+  />
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://github.com/starship/starship/actions"
+    ><img
+      src="https://img.shields.io/github/workflow/status/starship/starship/Main workflow/master?label=workflow&style=flat-square"
+      alt="GitHub Actions workflow status"
+  /></a>
+  <a href="http://ar.skinetics.tech/stellarios/compass#GeminiStation"
+    ><img
+      src="https://img.shields.io/crates/v/starship?style=flat-square"
+      alt="Notion"
+  /></a>
+  <br />
+  <a href="https://discord.gg/starship"
+    ><img
+      src="https://img.shields.io/discord/567163873606500352?label=discord&logoColor=white&style=flat-square"
+      alt="Chat on Discord"
+  /></a><!--http://ar.skinetics.tech/stellarios/compass#GeminiStation-->
+  <a href="https://www.notion.so/skinetics/Gemini-Station-15c17fe702ca4e718435a655bdcc0d7c"
+    ><img
+      src="https://img.shields.io/badge/apiheroku-GeminiStation-1DA1F3?style=flat-square&logo=replit"
+      alt="Check the documentation"
+  /></a>
+</p>
 
-## Available Scripts
+<p align="center">
+  <a href="https://starship.rs">Website</a>
+  ·
+  <a href="#🚀-installation">Installation</a>
+  ·
+  <a href="https://starship.rs/config/">Configuration</a>
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1>Gemini Station</h1>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img
+  src="https://raw.githubusercontent.com/starship/starship/master/media/demo.gif"
+  alt="Starship with iTerm2 and the Snazzy theme"
+  width="45%"
+  align="right"
+/>
 
-### `npm test`
+**GS + SK**
+We're collaborating with Gemini Station to produce a new API system, companion app and in-game components that will reflect Signal's Arcadia project. Citizen/data science & Arcadia components will be implemented using a combination of Flask (+ SQLAlchemy), REST & Connexion into the existing game, with the underlying components for future Arcadia games to be implanted as well. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This README file serves to explore the components of this part of Signal's Arcadia API, but the full documentation & notion pages can be browsed on the [arcadia web application](http://ar.skinetics.tech/stellarios/compass#GeminiStation).
 
-### `npm run build`
+**App Components**
+- A datapad for use in-game 🚀
+- A companion app that will convert the datapad into a mobile application
+- A new trading interface
+- An API to link Arcadia, the datapad & the existing Gemini Station game all together
+- Further Git[hub] & Zapier integrations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Documentation for React Portal**
+- [Vercel Environment Variables](https://vercel.com/gizmotronn/gemreactportal/settings/environment-variables)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+<a href="http://ar.skinetics.tech/stellarios/compass#GeminiStation"><strong>Explore the Starship docs&nbsp;&nbsp;▶</strong></a>
+</p>
 
-### `npm run eject`
+# Repositories
+* Keybase - `keybase://team/signalkinetics`
+<p align="center">
+  <a href="keybase://team/signalkinetics/API-Heroku"
+    ><img
+      src="https://img.shields.io/badge/keybase-APIHeroku-1DA1F3?style=flat-square"
+      alt="Notion"
+  /></a>
+  <a href="keybase://team/signalkinetics/Flask-Material-Dashboard"
+    ><img
+      src="https://img.shields.io/badge/keybase-flaskmaterialdashboard-1DA1F3?style=flat-square"
+      alt="Chat on Discord"
+  /></a><!--http://ar.skinetics.tech/stellarios/compass#GeminiStation-->
+  </br>
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Figma
+<p align="center">
+  <a href="https://github.com/acord-robotics/gem-jekylldemo"
+    ><img
+      src="https://img.shields.io/badge/gem-jekylldemo-1DA1F3?style=flat-square"
+      alt="GEM-jekylldemo"
+  /></a>
+  <a href="https://signal-kinetics.atlassian.net/jira/software/projects/GSCA/boards/15/backlog?selectedIssue=GSCA-7"
+    ><img
+      src="https://img.shields.io/badge/jira-gemjekyll-1DA1F3?style=flat-square"
+      alt="Chat on Discord"
+  /></a><!--http://ar.skinetics.tech/stellarios/compass#GeminiStation-->
+  </br>
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`GeminiStation`:
+```py
+dashboard_assets @
+fmd + #keybase://team/signalkinetics/Flask-Material-Dashboard
+geminivenv $ 
+templates @
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#Root: keybase://team/signalkinetics/API-Heroku
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Legend:
+* Static/css/js files/web components: `@`
+* Submodule: `+`
+* Virtual environment: `$`
 
-## Learn More
+**Updates**
+https://www.notion.so/skinetics/Gemini-Station-15c17fe702ca4e718435a655bdcc0d7c#d5f4615d63b5480899ba4e1647a8814d
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React app: `react-flask-app` (will upload to Glitch, Heroku, Vercel, Netlify, GH-Pages later. Also will make a separate repo, and send to Keybase). [Jira issue](https://signal-kinetics.atlassian.net/browse/GSCA-3)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
