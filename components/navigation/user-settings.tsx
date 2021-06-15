@@ -21,6 +21,9 @@ const UserSettings: React.FC = () => (
     <Popover.Item>
       <Link href="https://dashboard.heroku.com/auth/heroku/callback?code=1270f733-daa5-4a7c-94a0-c503f6c4cb2d">🦸🏻‍♂️ Heroku</Link>
     </Popover.Item>
+    <Popover.Item>
+      <Link href="https://3.basecamp.com/3186433/projects/22655692">🎯 Basecamp</Link>
+    </Popover.Item>
     <Popover.Item line />
     <Popover.Item>
       <Link href="http://ar.skinetics.tech">🌱 Root</Link>

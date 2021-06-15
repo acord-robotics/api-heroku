@@ -25,14 +25,14 @@ const Project: React.FC<ProjectProps> = ({ projectId, createdAt, repo }) => {
           </div>
           <div>
             <Dot className="project__deployment" type="success">
-              <Link href={'https://github.com/' + repo}>{projectId}.vercel.app</Link>
+              <Link href={'https://' + projectId + ".vercel.app"}>{projectId}.vercel.app</Link>
               <Tag className="project__environment-tag" type="secondary">
                 Production
               </Tag>
               <Link href={"https://signal-kinetics.atlassian.net/jira/software/projects/GSCA/boards/15/backlog?selectedIssue=" + createdAt}>{createdAt}</Link>
             </Dot>
             <Dot className="project__deployment" type="success">
-              <Link href={'https://' + projectId + ".vercel.app"}>{projectId}-cd609fb.vercel.app</Link>
+              <Link href="http://geministation.com/ship/#">{projectId}-cd609fb.vercel.app</Link>
               <Tag className="project__environment-tag" type="secondary">
                 Latest
               </Tag>
