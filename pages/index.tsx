@@ -28,7 +28,9 @@ const Page = () => {
               Recent Activity
             </Text>
             <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="4m">
-              You deployed react-dashboard-design to <b>production</b>
+              <Link href="/projects">
+                You created "Dashboard Ideas"
+              </Link>
             </EventListItem>
             <EventListItem username="dependabot" avatar="/assets/dependabot.png" createdAt="2d">
               Dependabot deployed docs to <b>docs-git-dependabot-npmelliptic-653.vercel.app</b>

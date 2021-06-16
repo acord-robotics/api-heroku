@@ -1,10 +1,100 @@
 import React from 'react';
-import { Text } from '@geist-ui/react';
+import NextLink from 'next/link';
+import { Text, Link, useTheme, Popover } from '@geist-ui/react';
+import Heading from '@/components/heading';
+import EventListItem from '@/components/activity-event';
+import Project from '@/components/project';
 
-const Page = () => (
-  <Text h2 style={{ margin: '8rem 0', textAlign: 'center' }}>
-    Projects
+const Page = () => {
+  const theme = useTheme();
+
+  return (
+    <>
+    <Text h2 style={{ margin: '8rem 0', textAlign: 'center' }}>
+    Dashboard Ideas
   </Text>
-);
+      <div className="page__wrapper">
+        <div className="page__content">
+          <div className="recent-activity">
+            <Text h2 className="recent-activity__title">
+              Recent Ideas
+            </Text>
+            <EventListItem href="https://www.sanity.io/plugins/vercel-dashboard-widget" username="ofekashery" avatar="/assets/avatar.png" createdAt="4m">
+              <Link href="https://www.sanity.io/plugins/vercel-dashboard-widget">
+            Sanity Dashboard Widget
+            </Link>
+            </EventListItem>
+            <EventListItem username="dependabot" avatar="/assets/dependabot.png" createdAt="2d">
+              Dependabot deployed docs to <b>docs-git-dependabot-npmelliptic-653.vercel.app</b>
+            </EventListItem>
+            <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="3d">
+              You deployed personal-website to <b>production</b>
+            </EventListItem>
+            <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="9d">
+              You deployed personal-website to <b>production</b>
+            </EventListItem>
+            <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="9d">
+              You created project <b>personal-website</b>
+            </EventListItem>
+            <NextLink href="https://vercel.com/dashboard/activity" passHref>
+              <Link className="view-all" color underline>
+                View All Activity
+              </Link>
+            </NextLink>
+          </div>
+        </div>
+      </div>
+      <style jsx>{`
+        .page__wrapper {
+          background-color: ${theme.palette.accents_1};
+        }
+        .page__content {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: ${theme.layout.pageWidthWithMargin};
+          max-width: 100%;
+          margin: 0 auto;
+          padding: 0 ${theme.layout.pageMargin};
+          transform: translateY(-35px);
+          box-sizing: border-box;
+        }
+        .projects {
+          width: 540px;
+          max-width: 100%;
+          margin-right: calc(4 * ${theme.layout.gap});
+        }
+        .projects :global(.project__wrapper):not(:last-of-type) {
+          margin-bottom: calc(1.5 * ${theme.layout.gap});
+        }
+        .recent-activity {
+          flex: 1;
+        }
+        .recent-activity :global(.recent-activity__title) {
+          font-size: 0.875rem;
+          font-weight: 700;
+          margin: 0 0 calc(3 * ${theme.layout.gapHalf});
+        }
+        .page__content :global(.view-all) {
+          font-size: 0.875rem;
+          font-weight: 700;
+          margin: calc(1.5 * ${theme.layout.gap}) 0;
+          text-align: center;
+        }
+        @media (max-width: ${theme.breakpoints.sm.max}) {
+          .page__content {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: stretch;
+          }
+          .projects {
+            width: 100%;
+            margin-right: unset;
+          }
+        }
+      `}</style>
+    </>
+  );
+};
 
 export default Page;
