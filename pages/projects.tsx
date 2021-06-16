@@ -19,10 +19,10 @@ const Page = () => {
             <Text h2 className="recent-activity__title">
               Recent Ideas
             </Text>
-            <EventListItem href="https://www.sanity.io/plugins/vercel-dashboard-widget" username="ofekashery" avatar="/assets/avatar.png" createdAt="4m">
-              <Link href="https://www.sanity.io/plugins/vercel-dashboard-widget">
-            Sanity Dashboard Widget
-            </Link>
+            <EventListItem username="ofekashery" avatar="/assets/avatar.png" createdAt="4m">
+            <Link href="https://www.sanity.io/plugins/vercel-dashboard-widget">
+                Sanity Dashboard Widget
+              </Link>
             </EventListItem>
             <EventListItem username="dependabot" avatar="/assets/dependabot.png" createdAt="2d">
               Dependabot deployed docs to <b>docs-git-dependabot-npmelliptic-653.vercel.app</b>
